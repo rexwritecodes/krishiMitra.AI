@@ -34,7 +34,7 @@ const LoginScreen = ({ navigation }) => {
       await AsyncStorage.setItem('phoneNumber', phoneNumber);
       
       // Navigate to Home screen
-      navigation.replace('Home');
+      navigation.replace('Main');
     } catch (error) {
       Alert.alert('Login Failed', 'Please check your credentials and try again');
       console.error('Login error:', error);

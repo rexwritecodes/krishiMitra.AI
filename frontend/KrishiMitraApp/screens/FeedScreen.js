@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const HomeScreen = () => {
+const FeedScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home Screen</Text>
+      <Text style={styles.text}>Feed Screen</Text>
     </View>
   );
 };
@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeScreen;
+export default FeedScreen;

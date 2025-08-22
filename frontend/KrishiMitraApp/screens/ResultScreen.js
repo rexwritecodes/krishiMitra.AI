@@ -70,7 +70,7 @@ const ResultScreen = ({ route, navigation }) => {
   };
 
   const goToHome = () => {
-    navigation.navigate('Home');
+    navigation.navigate('Main', { screen: 'Home' });
   };
 
   const takePictureAgain = () => {
